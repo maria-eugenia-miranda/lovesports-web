@@ -1,0 +1,184 @@
+
+html, body {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.titulo-inicial {
+    color: rgb(128, 0, 86);
+   text-align: center;
+   font-weight:500;
+}
+
+.contenedor-portada {
+    height: 350px;
+    overflow-y: hidden;
+}
+
+.imagen-portada {
+    width: 100%;
+    top: -300px;
+}
+
+.imagen-portadaNosotros{
+    width: 100%;
+    height: 500px;
+}
+.carritoDeCompras {
+    width: 35px;
+    height: 35px;
+}
+
+.ofertasydescuentos {
+    background-color: yellow;
+  text-align: center;
+}
+
+.nav {
+    background-color: rgb(243, 207, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.temporadas {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.tarjetas {
+    border: 2px solid rgb(227, 133, 219);
+    width: 35%;
+    border-radius: 5px;
+}
+.tarjetas h3 {
+    font-weight: 500;
+
+    text-align: center;
+}
+.im-temporada{
+width: 80%;
+height: 350px;
+text-align: center;
+}
+.centrar-img-temp {
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.divFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fomrularioContacto{
+    padding: 10px;
+    border: 1px solid;
+    width:40%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;   
+}
+.botonEnviar{
+    border-radius: 10px;
+    width: 80px;
+    padding: 2px;
+    color: aliceblue;
+    background-color:rgb(128, 0, 86) ;
+    cursor: pointer;
+
+
+
+}
+.botonEnviar:hover{
+   
+    color: rgb(128, 0, 86) ;
+    background-color:aliceblue;
+    font-weight: bold;
+}
+.flexButon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.tituloContacto{
+   text-align: center;
+
+}
+
+.navContactos{ 
+    background-color: rgb(243, 207, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+ 
+.imgRedes {
+   display: flex;
+   justify-content:center;
+   margin: 10px 0px 30px 0px;
+}
+.iconoRed {
+    width: 25px;
+    height: 25px;
+}
+.mapa{
+    text-align: center;
+
+}
+
+.mas-vendidos h2 {
+    text-align: center;
+    font-weight: 700;
+   color:rgb(128, 0, 86);
+
+}
+.formato-masvendidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.img-masvendidos {
+    width: 25%;
+    height: 400px;
+    
+}
+.footer {
+    background-color:rgb(243, 207, 243) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.productos { 
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+.img-productos {
+    width: 250px;
+    height: 250px;
+}
+
+.item-producto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.descripcion{
+    margin: 10px;
+}
