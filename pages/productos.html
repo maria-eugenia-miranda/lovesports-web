@@ -13,6 +13,17 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,58 +31,127 @@
         <div class="ofertasydescuentos">
             3 y 6 CUOTAS SIN INTERÉS, 20% OFF CON TRANSFERENCIA BANCARIA
         </div>
-        <nav class="navContactos">
-            <a href="../index.html">Volver al inicio</a>
-            <img src="../multimedia/pngwing.com.png" class="carritoDeCompras">
+        <nav class="navbar navbar-expand-md navbar-light bg-light row justify-content-between ms-2">
+            <!-- MENU PARA TABLETS Y DESKTOP -->
+            <ul class="navbar-nav mr-auto col-md-5 d-none d-md-flex">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                </li>
+            </ul>
+            <!-- MENU PARA MOBILE -->
+            <ul class="navbar-nav mr-auto col d-block d-md-none">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../index.html">Inicio</a>
+                        <a class="dropdown-item" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="dropdown-item" href="../pages/contactos.html">Contactos</a>
+                    </div>
+                </li>
+            </ul>
+            <a class="navbar-brand col text-center" href="#">
+                <img src="../favicon.ico" class="img-logo-menu">
+            </a>
+            <form class="form-inline row col-3 d-none d-xl-flex">
+                <input class="form-control col" type="search" placeholder="Que estas buscando" aria-label="Search">
+                <button type="submit" class="btnSearch col-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search-heart" viewBox="0 0 16 16">
+                        <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
+                        <path
+                            d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z" />
+                    </svg>
+                </button>
+            </form>
+
+            <div class="carrito col ">
+                <img src="../multimedia/pngwing.com.png" class="carritoDeCompras">
+            </div>
         </nav>
-
-
     </header>
 
-    <main>
+    <main class="mainProductos">
+        <h2 class="tituloProductos">Elegí entrenar cómoda y linda, armá tu look ideal!!</h2>
         <section class="productos">
-            <div class="item-producto">
+            <div class="item item-producto1">
                 CALZAS LARGAS
                 <img src="../multimedia/img/leggins.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto2">
                 CALZAS CORTAS
                 <img src="../multimedia/img/dos shorts.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto3">
                 SHORT DOBLES
                 <img src="../multimedia/img/short byn.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto4">
                 REMERAS TÉRMICAS
 
                 <img src="../multimedia/img/termica.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto5">
 
                 REMERAS MANGA CORTA
                 <img src="../multimedia/img/short corto fucsia.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
-
-                BUZOS
+            <div class="item item-producto6">
+                 BUZOS
                 <img src="../multimedia/img/buzo c rosa.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto7">
                 CAMPERAS
 
                 <img src="../multimedia/img/CAMPERA RUNNING.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto8">
 
                 TOP DEPORTIVO
                 <img src="../multimedia/img/top tirita.jpeg" alt="" class="img-productos">
             </div>
-            <div class="item-producto">
+            <div class="item item-producto9">
                 JOGGINS
 
                 <img src="../multimedia/img/joggins.jpeg" alt="" class="img-productos">
             </div>
+            <div class="item item-producto10">
+                CALZAS LARGAS
+                <img src="../multimedia/img/leggins.jpeg" alt="" class="img-productos">
+            </div>
+            <div class="item item-producto11">
+                CALZAS CORTAS
+                <img src="../multimedia/img/dos shorts.jpeg" alt="" class="img-productos">
+            </div>
+            <div class="item item-producto12">
+                SHORT DOBLES
+                <img src="../multimedia/img/short byn.jpeg" alt="" class="img-productos">
+            </div>
+            <div class="item item-producto13">
+                REMERAS TÉRMICAS
+
+                <img src="../multimedia/img/termica.jpeg" alt="" class="img-productos">
+            </div>
+            <div class="item item-producto14">
+
+                REMERAS MANGA CORTA
+                <img src="../multimedia/img/short corto fucsia.jpeg" alt="" class="img-productos">
+            </div>
+           
+
 
 
 
