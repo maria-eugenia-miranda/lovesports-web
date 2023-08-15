@@ -3,11 +3,12 @@
 }
 .mainNosotros .tituloNosotros1 {
   margin: 40px;
-  color: rgb(128, 0, 86);
+  color: rgb(255, 255, 255);
   text-align: center;
+  text-shadow: 1px 1px 2px rgb(59, 4, 46), 0 0 1em rgb(101, 46, 100), 0 0 0.5em rgb(122, 21, 122);
 }
 .mainNosotros .tarjetaNosotros {
-  border: rgb(233, 147, 233) solid 3px;
+  border: rgb(192, 54, 192) solid 3px;
   height: 35%;
   margin: auto;
   display: grid;

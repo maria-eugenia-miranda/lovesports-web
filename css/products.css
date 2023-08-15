@@ -20,6 +20,9 @@
   height: 300px;
   margin: 0 2px 10px 2px;
 }
+.mainProductos .productos .item:hover {
+  background-color: rgb(241, 248, 139);
+}
 
 /* INICIO ESTILOS productos.html */
 @media (max-width: 768px) {
