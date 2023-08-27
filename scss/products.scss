@@ -3,7 +3,7 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
         font-weight: bold;
-        text-shadow: 3px 3px 3px rgb(208, 161, 208);
+        text-shadow: 3px 3px 3px $fourth-color;
     }
 
     .productos {
@@ -14,8 +14,10 @@
 
         .item {
             text-align: center;
-            background-color: rgb(175, 136, 166);
-            color: black;
+            background-color: $secondary-color;
+            color: white;
+            font-weight: 700;
+            border-radius: 5px;
 
             .img-productos {
                 width: 95%;
@@ -24,7 +26,7 @@
             }
         }
         .item:hover{
-            background-color: rgb(241, 248, 139);
+            background-color:$primary-color;
         }
     }
 

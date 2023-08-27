@@ -1,81 +1,17 @@
-.navContactos {
-  background-color: rgb(243, 207, 243);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 21 |         background-color: $fourth-color;
+ *    |                           ^^^^^^^^^^^^^
+ *    '
+ *   scss/contact.scss 21:27  root stylesheet */
 
-.divFormulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 21 \2502          background-color: $fourth-color;\a    \2502                            ^^^^^^^^^^^^^\a    \2575 \a   scss/contact.scss 21:27  root stylesheet";
 }
-.divFormulario .fomrularioContacto {
-  padding: 10px;
-  border: 1px solid;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.divFormulario .fomrularioContacto .tituloContacto {
-  text-align: center;
-}
-.divFormulario .fomrularioContacto .flexButon {
-  margin-top: 10px;
-  display: flex;
-  justify-content: end;
-}
-.divFormulario .fomrularioContacto .flexButon .botonEnviar {
-  border-radius: 10px;
-  width: 80px;
-  padding: 2px;
-  color: aliceblue;
-  background-color: rgb(128, 0, 86);
-  cursor: pointer;
-}
-.divFormulario .fomrularioContacto .flexButon .botonEnviar :hover {
-  color: rgb(128, 0, 86);
-  background-color: aliceblue;
-  font-weight: bold;
-}
-
-.mapa {
-  text-align: center;
-}
-
-.imgRedes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.iconoRed {
-  width: 25px;
-  height: 25px;
-  margin: 5px;
-}
-
-@media (min-width: 1024px) {
-  .divFormulario .fomrularioContacto {
-    width: 40%;
-  }
-}
-@media (max-width: 768px) {
-  .divFormulario .fomrularioContacto {
-    width: 60%;
-  }
-  .mapa iframe {
-    width: 60%;
-  }
-}
-@media (max-width: 576px) {
-  .divFormulario .fomrularioContacto {
-    width: 90%;
-  }
-  .mapa iframe {
-    width: 90%;
-  }
-}
-
-/*# sourceMappingURL=contact.css.map */

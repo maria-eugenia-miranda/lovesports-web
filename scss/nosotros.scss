@@ -6,13 +6,14 @@
         color: rgb(255, 255, 255);
         text-align: center;
         text-shadow:
-        1px 1px 2px rgb(59, 4, 46),
-        0 0 1em rgb(101, 46, 100),
-        0 0 0.5em rgb(122, 21, 122);
+        1px 1px 2px $primary-color,
+        0 0 1em $secondary-color,
+        0 0 0.5em $fourth-color;
     }
 
     .tarjetaNosotros {
-        border: rgb(192, 54, 192) solid 3px;
+        border-radius: 30px;
+        background-color: $third-color;
         height: 35%;
         margin: auto;
         display: grid;
@@ -32,8 +33,8 @@
         margin: 50px 0px;
 
         .tituloNosotros {
-            background-color: rgb(226, 199, 228);
-            color: rgb(128, 0, 86);
+            background-color: $third-color;
+            color:$primary-color;
             text-align: center;
         }
     }

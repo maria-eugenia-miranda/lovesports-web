@@ -1,40 +1,17 @@
-.mainProductos .tituloProductos {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px rgb(208, 161, 208);
-}
-.mainProductos .productos {
-  display: grid;
-  grid-template-columns: repeat(4, 12fr);
-  gap: 10px;
-  margin: 10px;
-}
-.mainProductos .productos .item {
-  text-align: center;
-  background-color: rgb(175, 136, 166);
-  color: black;
-}
-.mainProductos .productos .item .img-productos {
-  width: 95%;
-  height: 300px;
-  margin: 0 2px 10px 2px;
-}
-.mainProductos .productos .item:hover {
-  background-color: rgb(241, 248, 139);
-}
+/* Error: Undefined variable.
+ *   ,
+ * 6 |         text-shadow: 3px 3px 3px $fourth-color;
+ *   |                                  ^^^^^^^^^^^^^
+ *   '
+ *   scss/products.scss 6:34  root stylesheet */
 
-/* INICIO ESTILOS productos.html */
-@media (max-width: 768px) {
-  .mainProductos .productos {
-    grid-template-columns: repeat(2, 12fr);
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502          text-shadow: 3px 3px 3px $fourth-color;\a   \2502                                   ^^^^^^^^^^^^^\a   \2575 \a   scss/products.scss 6:34  root stylesheet";
 }
-/* FIN ESTILOS productos.html */
-@media (max-width: 576px) {
-  .mainProductos .productos {
-    grid-template-columns: repeat(1, 12fr);
-  }
-}
-
-/*# sourceMappingURL=products.css.map */

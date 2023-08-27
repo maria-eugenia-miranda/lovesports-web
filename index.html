@@ -2,21 +2,25 @@
 <html lang="es">
 
 <head>
+    <!-- META ETIQUETAS -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lovesports: ropa deportiva comoda y canchera">
-    <meta name="keywords" content="Ropa deportiva, Moda activa, Rendimiento atlético, Estilo deportivo, Entrenamiento, Actividades físicas, Accesorios deportivos,  Comodidad en el deporte">
+    <meta name="keywords"
+        content="Ropa deportiva, Moda activa, Rendimiento atlético, Estilo deportivo, Entrenamiento, Actividades físicas, Accesorios deportivos,  Comodidad en el deporte">
     <title>LoveSports | Ropa Deportiva - Home</title>
+    <!-- LINK ESTILOS -->
+    <script src="https://kit.fontawesome.com/808781cc1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./multimedia/img/favicon.ico">
 
-
+    <!-- LINK BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -34,14 +38,15 @@
 <body>
     <!-- INICIO HEADER -->
     <header class="header container-fluid p-0 m-0">
-        <div class="ofertasydescuentos row">
+        <div class="ofertasydescuentos row m-0 ">
             <label class="col-12">3 y 6 CUOTAS SIN INTERÉS, 20% OFF CON TRANSFERENCIA BANCARIA</label>
         </div>
-        <div class="contenedor-portada row">
-            <img src="./multimedia/img/WhatsApp Image 2023-06-29 at 13.38.35.jpeg" class="imagen-portada col">
+        <div class="contenedor-portada  m-0  row">
+            <img src="./multimedia/img/WhatsApp Image 2023-06-29 at 13.38.35.jpeg" class="imagen-portada  p-0 col">
         </div>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light row justify-content-between ms-2">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light row justify-content-between m-0">
             <!-- MENU PARA TABLETS Y DESKTOP -->
             <ul class="navbar-nav mr-auto col-md-5 d-none d-md-flex">
                 <li class="nav-item active">
@@ -74,7 +79,7 @@
                 </li>
             </ul>
             <a class="navbar-brand col text-center" href="#">
-                <img src="./favicon.ico" class="img-logo-menu">
+                <img src="./multimedia/img/favicon.ico" class="img-logo-menu">
             </a>
             <form class="form-inline row col-3 d-none d-xl-flex">
                 <input class="form-control col" type="search" placeholder="Que estas buscando" aria-label="Search">
@@ -96,35 +101,52 @@
     <!-- FIN HEADER -->
     <!-- INICIO MAIN -->
     <main class="container-fluid text-center p-0 m-0">
-        <div class="row">
+        <!-- WHATSAPP FLOTANTE -->
+        <div class="whatsapp">
+            <a href="#" target="_blank">
+                <svg class="Imwhatsapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+            </a>
+        </div>
+        <!-- TEMPORADAS -->
+        <div class="row m-0">
             <h1 class="titulo-inicial col">LOVESPORTS INDUMENTARIA DEPORTIVA</h1>
         </div>
-        <div class="temporadas row">
+        <div class="temporadas m-0 row">
             <section class="tarjeta col-md-5 col-10">
                 <h2>TEMPORADA PRIMAVERA VERANO</h2>
-                <img alt="temporada primavera verano" src="./multimedia/img/short corto fucsia-fotor-202308131488.jpg" class="im-temporada">
+                <img alt="temporada primavera verano" src="./multimedia/img/short corto fucsia-fotor-202308131488.jpg"
+                    class="im-temporada">
             </section>
             <section class="tarjeta col-md-5 col-10">
                 <h2>TEMPORADA OTOÑO INVIERNO</h2>
-                <img alt="temporada otono invierno" src="./multimedia/img/buzo-fotor-202308131433.jpg" class="im-temporada">
+                <img alt="temporada otono invierno" src="./multimedia/img/buzo-fotor-202308131433.jpg"
+                    class="im-temporada">
             </section>
         </div>
-
+        <!-- MAS VENDIDOS -->
         <div class="mas-vendidos text-center row">
             <h3 class="tituloMasVendidos">MAS VENDIDOS</h3>
 
             <div class="formato-masvendidos row">
                 <div class="vendidos col-lg-3 col-sm-6 col-xs-6">
-                    <img alt="short personalizado" src="./multimedia/img/short byn INICIO-fotor-2023081314136.jpg" alt="" class="img-masvendidos ">
+                    <img alt="short personalizado" src="./multimedia/img/short byn INICIO-fotor-2023081314136.jpg"
+                        alt="" class="img-masvendidos ">
                 </div>
                 <div class="vendidos col-lg-3 col-sm-6 col-xs-6">
-                    <img src="./multimedia/img/buzo rusticoINICIO-fotor-20230813145919.jpg" alt="buzo rustico" class="img-masvendidos ">
+                    <img src="./multimedia/img/buzo rusticoINICIO-fotor-20230813145919.jpg" alt="buzo rustico"
+                        class="img-masvendidos ">
                 </div>
                 <div class="vendidos col-lg-3 col-sm-6 col-xs-6">
-                    <img src="./multimedia/img/top deportivo INICIO-fotor-20230813141229.jpg" alt="top deportivo" class="img-masvendidos ">
+                    <img src="./multimedia/img/top deportivo INICIO-fotor-20230813141229.jpg" alt="top deportivo"
+                        class="img-masvendidos ">
                 </div>
                 <div class="vendidos col-lg-3 col-sm-6 col-xs-6">
-                    <img src="./multimedia/img/legginsinicio-fotor-20230813142415.jpg" alt="leggins" class="img-masvendidos ">
+                    <img src="./multimedia/img/legginsinicio-fotor-20230813142415.jpg" alt="leggins"
+                        class="img-masvendidos ">
                 </div>
             </div>
         </div>
@@ -137,12 +159,24 @@
             <a href="./pages/contactos.html">Contacto</a>
             <p>Diseño by Mery miranda</p>
         </div>
+        <div>
+            <p>Dot Baires shopping LOCAL 19
+                Todos los días de 8 a 20 hs
+            </p>
+            <p>Télefono de contacto:
+                (011) 1537849566
+                (011) 5454 7878
+            </p>
+            <p>Mail: lovesports_cm@gmail.com
+            </p>
+        </div>
         <div class="imgRedes">
             <img src="./multimedia/img/facebook.png" alt="fb" class="iconoRed">
             <a href="https://www.facebook.com/Lovesports.ind/"> Lovesports.ind</a>
             <img src="./multimedia/img/ig.png" alt="ig" class="iconoRed">
             <a href="https://www.instagram.com/lovesports_indumentaria/">Lovesports_indumentaria</a>
         </div>
+
     </footer>
     <!-- FIN FOOTER -->
 </body>

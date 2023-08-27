@@ -13,14 +13,30 @@
 
     .fomrularioContacto {
         padding: 10px;
-        border: 1px solid;
+        border-radius: 20px;
         width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: $fourth-color;
+
+        .textoForm { 
+            color: white;
+            font-weight: 700;
+            
+        }
+
+        .inputForm {
+            background-color: $third-color;
+            border: transparent;
+            margin: 5px 0px;
+            padding: 2px 4px;
+        }
 
         .tituloContacto {
             text-align: center;
+            color: white;
+            font-weight: 600;
 
         }
 
@@ -34,7 +50,7 @@
                 width: 80px;
                 padding: 2px;
                 color: aliceblue;
-                background-color: rgb(128, 0, 86);
+                background-color: $primary-color;
                 cursor: pointer;
 
                 :hover {
@@ -54,12 +70,14 @@
 
 .mapa {
     text-align: center;
+    margin: 20px;
 }
 
 .imgRedes {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .iconoRed {
